@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Mainpage.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashour</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Sony<span>Posts</span> </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Creative Graphic Design Solutions</h1>
+            <p>We craft stunning visuals that elevate your brand and captivate your audience.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of creative services to help your brand stand out.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Branding & Identity</h3>
+                <p>We create unique brand identities that resonate with your audience.</p>
+                <div class="service-bg"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🖌️</div>
+                <h3>Web Design</h3>
+                <p>Beautiful and functional websites tailored to your business needs.</p>
+                <div class="service-bg"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Mobile App Design</h3>
+                <p>Intuitive and engaging mobile app designs for seamless user experiences.</p>
+                <div class="service-bg"></div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="section-title">
+            <h2>Our Portfolio</h2>
+            <p>Explore some of our recent projects and see the impact of our work.</p>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="app">App Design</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item show" data-category="branding">
+                <img src="BurgerAdv.jpg" alt="Branding Project" class="portfolio-img">
+                <img src="Shoseadv.jpg" alt="Branding Project" class="portfolio-img">
+                <img src="BurgerAdv.jpg" alt="Branding Project" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Branding Project</h3>
+                    <p>We created a bold and modern brand identity for a tech startup.</p>
+                </div>
+            </div>
+            <div class="portfolio-item show" data-category="web">
+                <img src="Shoseadv.jpg" alt="Web Design Project" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Web Design Project</h3>
+                    <p>A sleek and responsive website for a fashion brand.</p>
+                </div>
+            </div>
+            <div class="portfolio-item show" data-category="app">
+                <img src="Appdesign.png" alt="App Design Project" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>App Design Project</h3>
+                    <p>An intuitive mobile app for a fitness company.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>What Our Clients Say</h2>
+            <p>Hear from our satisfied clients about their experiences with us.</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial active">
+                <img src="myimage2.jpg" alt="Client" class="client-img">
+                <p class="client-quote">"SonyPosts transformed our brand with their creative expertise. Highly recommended!"</p>
+                <div class="client-info">
+                    <h4>Ahmed Khaled</h4>
+                    <p>CEO, TechCorp</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="Myimage1.jpg" alt="Client" class="client-img">
+                <p class="client-quote">"The team delivered a stunning website that exceeded our expectations."</p>
+                <div class="client-info">
+                    <h4>Khaled Ashour</h4>
+                    <p>Markting</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="myimage2.jpg" alt="Client" class="client-img">
+                <p class="client-quote">"Their app design is user-friendly and visually appealing. Great work!"</p>
+                <div class="client-info">
+                    <h4>Mohamed Ashour</h4>
+                    <p>COO, Manager</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-nav">
+            <button class="testimonial-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="testimonial-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+   
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you! Reach out to us for any inquiries or collaborations.</p>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-method">
+                    <div class="contact-icon">📍</div>
+                    <p>123 Creative Lane, Design City, DC 12345</p>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-icon">📞</div>
+                    <p>+1 (123) 456-7890</p>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-icon">✉️</div>
+                    <p>info@designwavestudio.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 DesignWave Studio. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const navbar = document.querySelector('.navbar');
+    function highlightNav() {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').includes(current)) {
+                link.classList.add('active');
+                navbar.classList.add('transitioning');
+                setTimeout(() => {
+                    navbar.classList.remove('transitioning');
+                }, 800);
+            }
+        });
+    }
+    
+    window.addEventListener('scroll', highlightNav);
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            navbar.classList.add('transitioning');
+            
+            window.scrollTo({
+                top: targetSection.offsetTop - 70,
+                behavior: 'smooth'
+            });
+            setTimeout(() => {
+                navbar.classList.remove('transitioning');
+            }, 1000);
+        });
+    });
+});
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const hero = document.querySelector('.hero');
+        const particleCount = 20;
+        
+        for (let i = 0; i < particleCount; i++) {
+            createParticle();
+        }
+        
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            const size = Math.random() * 10 + 5;
+            const posX = Math.random() * 100;
+            const duration = Math.random() * 20 + 10;
+            const delay = Math.random() * 5;
+            const opacity = Math.random() * 0.5 + 0.1;
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${posX}%`;
+            particle.style.opacity = opacity;
+            particle.style.animationDuration = `${duration}s`;
+            particle.style.animationDelay = `${delay}s`;
+            document.querySelector('.hero').appendChild(particle);
+            particle.addEventListener('animationiteration', () => {
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.bottom = `-${size}px`;
+            });
+        }
+    });
+        const testimonials = document.querySelectorAll('.testimonial');
+        const prevBtn = document.querySelector('.testimonial-btn.prev');
+        const nextBtn = document.querySelector('.testimonial-btn.next');
+        let currentIndex = 0;
+
+        const showTestimonial = (index) => {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.classList.toggle('active', i === index);
+            });
+        };
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : testimonials.length - 1;
+            showTestimonial(currentIndex);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex < testimonials.length - 1) ? currentIndex + 1 : 0;
+            showTestimonial(currentIndex);
+        });
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.getAttribute('data-filter');
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                portfolioItems.forEach(item => {
+                    const category = item.getAttribute('data-category');
+                    if (filter === 'all' || category === filter) {
+                        item.classList.add('show');
+                    } else {
+                        item.classList.remove('show');
+                    }
+                });
+            });
+        });
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
